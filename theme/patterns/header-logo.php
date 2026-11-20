@@ -19,6 +19,10 @@
 	</a>
 	<!-- /wp:html -->
 
-	<!-- wp:navigation {"overlayMenu":"mobile","layout":{"type":"flex","justifyContent":"right"}} /-->
+	<!-- wp:navigation {"overlayMenu":"mobile","className":"genaro-nav","layout":{"type":"flex","justifyContent":"right"}} -->
+		<!-- wp:navigation-link {"label":"Work","url":"/work/","kind":"custom"} /-->
+		<!-- wp:navigation-link {"label":"About","url":"/about/","kind":"custom"} /-->
+		<!-- wp:navigation-link {"label":"CV","url":"/cv/","kind":"custom","className":"genaro-nav__cta"} /-->
+	<!-- /wp:navigation -->
 </div>
 <!-- /wp:group -->

@@ -51,7 +51,6 @@
 		}
 	},
 	"styles": {
-		"css": ".genaro-section{padding-top:clamp(3rem,8vw,5rem);padding-bottom:clamp(3rem,8vw,5rem)}.genaro-card{background:var(--wp--preset--color--surface);border-radius:8px;padding:1.5rem}.has-surface-background-color .genaro-card{background:var(--wp--preset--color--base)}.genaro-card h3{margin-top:0}.genaro-card h3 a{text-decoration:none}.genaro-card h3 a:hover{text-decoration:underline}.genaro-eyebrow{color:var(--wp--preset--color--primary);font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:0}.genaro-hero h1{border-left:6px solid var(--wp--preset--color--accent);padding-left:1rem}.genaro-products li{margin-bottom:.5rem}",
 		"color": {
 			"background": "var:preset|color|base",
 			"text": "var:preset|color|contrast"
@@ -81,7 +80,7 @@
 			},
 			"heading": {
 				"color": { "text": "var:preset|color|contrast" },
-				"typography": { "fontWeight": "700", "lineHeight": "1.2" }
+				"typography": { "fontWeight": "700", "lineHeight": "1.2", "letterSpacing": "-0.01em" }
 			},
 			"h1": { "typography": { "fontSize": "var:preset|font-size|xx-large" } },
 			"h2": { "typography": { "fontSize": "var:preset|font-size|x-large" } },
