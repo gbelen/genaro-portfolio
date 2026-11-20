@@ -1,0 +1,22 @@
+/*
+Theme Name: Genaro
+Theme URI: https://genaro.com.do
+Author: Genaro Heredia Belen
+Author URI: https://genaro.com.do
+Description: Custom block theme for genaro.com.do. No page builder, no base theme: just theme.json, templates and patterns.
+Version: 0.1.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 8.1
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: genaro
+*/
+
+/*
+ * Almost all styles live in theme.json. This file is mainly the theme header.
+ *
+ * Accessibility note on the brand green (#6FC38C): its contrast on white is 2.13:1,
+ * so it is used only for decoration and backgrounds, never for text on white.
+ * For green text, use "accent-dark" (#2E7D4F, 5.05:1).
+ */

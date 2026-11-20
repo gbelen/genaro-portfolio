@@ -35,12 +35,12 @@ npm run env:stop
 
 Port busy? Create a `.wp-env.override.json` file (it's git-ignored) with another port, e.g. `{ "port": 8890 }`.
 
-## Structure (planned)
+## Structure
 
 ```
-theme/                      Custom block theme
-plugins/case-study-block/   Custom block plugin
-.github/workflows/          CI/CD pipelines
+theme/                      Custom block theme (mounted as wp-content/themes/genaro)
+plugins/case-study-block/   Custom block plugin (planned)
+.github/workflows/          CI/CD pipelines (planned)
 .wp-env.json                Local environment (PHP 8.3, same as production)
 ```
 
