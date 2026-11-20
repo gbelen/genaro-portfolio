@@ -1,0 +1,18 @@
+# Dependencias: se reinstalan con `npm install` / `composer install`
+node_modules/
+vendor/
+
+# Archivos compilados del bloque (los genera `npm run build`)
+build/
+
+# Secretos y configuración personal: nunca al repo
+.env
+.env.*
+!.env.example
+.wp-env.override.json
+
+# Ruido del sistema y de editores
+.DS_Store
+*.log
+.vscode/
+.idea/

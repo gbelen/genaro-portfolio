@@ -1,0 +1,15 @@
+{
+  "name": "genaro-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site for genaro.com.do: custom WordPress block theme and block plugin, deployed with GitHub Actions.",
+  "license": "GPL-2.0-or-later",
+  "author": "Genaro Heredia Belen",
+  "scripts": {
+    "env:start": "wp-env start",
+    "env:stop": "wp-env stop"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^12.2.0"
+  }
+}
